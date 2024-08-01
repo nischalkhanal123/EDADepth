@@ -474,7 +474,7 @@ def main():
         os.system("cp *.sh "+file_dir)
         command = "mkdir -p "+os.path.join(file_dir, 'configs') + '&& cp configs/*.py ' + os.path.join(file_dir, 'configs')
         os.system(command)
-        command = "mkdir -p "+os.path.join(file_dir, 'dataloaders') + '&& cp dataloaders/*.py ' + os.path.join(file_dir, 'dataloaders')
+        command = "mkdir -p "+os.path.join(file_dir, 'datasets') + '&& cp datasets/*.py ' + os.path.join(file_dir, 'datasets')
         os.system(command)
         command = "mkdir -p "+os.path.join(file_dir, 'models') + '&& cp models/*.py ' + os.path.join(file_dir, 'models')
         os.system(command)
